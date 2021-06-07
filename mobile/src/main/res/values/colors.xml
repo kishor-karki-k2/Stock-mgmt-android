@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f0ffaa00</color>
+    <color name="colorPrimaryDark">#c2ffaa00</color>
+    <color name="colorAccent">#65ab03</color>
+    <color name="darkyellow">#f7fab547</color>
+    <color name="deliverTextColor">#919191</color>
+
+    <color name="Y1">#AEEA00</color>
+    <color name="Y2">#C6FF00</color>
+    <color name="colorPurple">#4E3D85</color>
+    <color name="Y3">#EEEF41</color>
+    <color name="Y4">#F4FF81</color>
+    <color name="colorCategoryTitle">#202020</color>
+    <color name="colorCategoryVendor">#666666</color>
+    <color name="colorGreyBackground">#F4F5F7</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="noteTextColor">#231F20</color>
+    <color name="pop_message_bg">#fafafa</color>
+    <color name="cart_red">#6d070a</color>
+
+    <color name="G1">#64DD17</color>
+    <color name="G2">#76FF03</color>
+    <color name="G3">#B2FF59</color>
+    <color name="G4">#CCFF90</color>
+
+    <color name="B1">#00C853</color>
+    <color name="B2">#00E676</color>
+    <color name="B3">#69F0AE</color>
+    <color name="colorCircleImageBg">#ACADAE</color>
+    <color name="colorMainCategoryBg">#FEFFFF</color>
+
+    <color name="B4">#B9F6CA</color>
+    <color name="foreground_material_light">#030303</color>
+    <color name="text_color_primary">#252120</color>
+    <color name="blue">#2a4668</color>
+    <color name="green">#EE2A6830</color>
+    <color name="btnBlue">#0F70AB</color>
+
+
+    <color name="w1">#f9f4f4</color>
+</resources>

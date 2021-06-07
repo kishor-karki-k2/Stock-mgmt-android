@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/add_to_cart_layout_bg"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/txtProductTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/noteTextColor"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/lytQuantity"
+        android:background="@android:color/white"
+        android:layout_below="@+id/txtProductTitle"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:text="Product Quantity"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:background="@drawable/et_bg"
+            android:layout_below="@+id/txtTitle"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/edtQuantity"
+                android:background="@android:color/transparent"
+                android:inputType="number"
+                android:editable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLength="3"
+                android:textColor="@color/noteTextColor" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lytSalesQuantity"
+        android:background="@android:color/white"
+        android:layout_below="@+id/lytQuantity"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:text="Sales Quantity"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:background="@drawable/et_bg"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/edtSalesQuantity"
+                android:background="@android:color/transparent"
+                android:inputType="number"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLength="3"
+                android:textColor="@color/noteTextColor" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lytSalesDate"
+        android:layout_below="@+id/lytSalesQuantity"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/et_bg"
+        android:layout_marginStart="16dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="Select Date"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtScheduleDate"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnSales"
+        android:background="@drawable/btn_bg"
+        android:layout_below="@+id/lytSalesDate"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_width="match_parent"
+        android:text="Add Sales"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:background="@color/white"
+        android:layout_below="@+id/btnSales"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:text="Cancel"
+        android:textColor="@color/noteTextColor"
+        android:textSize="12sp" />
+
+</RelativeLayout>

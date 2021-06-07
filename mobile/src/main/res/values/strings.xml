@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Rimsha Enterprises</string>
+    <string name="category">Category</string>
+
+
+    <string name="menu">MENU</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="PREF_TOKEN">Pref Token</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="nav_sales_report">Sales Report</string>
+    <string name="logout">Logout</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>About us</item>
+        <item>Log out</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="intotxt">Rimsha Enterprises Pvt Ltd. is situated at Thansing, ward no 1,Nuwakot.This is an Hardware Selling store which sells different items like building materials, hand tools, power tools, keys, locks, hinges, chains, plumbing supplies etc since last two years.
+   This organization was established  in  a year 2073 with the motive of delivering different hardware items covering the Nuwakot district for the quick and easy reconstruction purpose for the nearby people after the earthquake strikes in 2072.This organization is one of the best in local areas with reasonable price and quality services.The best part is it also provides home delivery. Now it aims to digitalize the organization, and feels need of a computer system."
+    </string>
+
+
+</resources>

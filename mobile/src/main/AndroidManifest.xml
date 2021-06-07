@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kishor.summerproject"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:name=".utils.SummerApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="false"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning,HardcodedDebugMode">
+        <activity android:name=".feature.product.ProductDetailActivity"></activity>
+        <activity android:name=".feature.sales.SalesReportActivity" />
+        <activity android:name=".feature.category.SubCategoryActivity" /> <!-- <activity android:name=".SplashScreen"></activity> -->
+        <activity android:name=".feature.dashboard.DashboardActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".feature.auth.LoginPage" />
+        <activity
+            android:name=".feature.splash.SplashActivity"
+            android:theme="@style/AppTheme.splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
